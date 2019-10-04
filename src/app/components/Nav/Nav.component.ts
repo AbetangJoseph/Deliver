@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./Nav.component.css']
 })
 export class NavComponent implements OnInit {
-  @Input() data: object;
+  @Input() data;
   constructor() {}
 
   ngOnInit() {}
