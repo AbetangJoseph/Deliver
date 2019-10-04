@@ -1,0 +1,92 @@
+/* Mobile View */
+.jumbotron {
+  background-image: url('/assets/images/Mask-Group-4.png');
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.banner-title {
+  font-size: 30px;
+  font-family: Montserrat;
+  font-weight: bold;
+  color: #420000;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.find-restaurants {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 15px 2px #ddd;
+  width: 80%;
+  margin: auto;
+}
+
+.custom-select {
+  border: 0px !important;
+}
+
+.btn {
+  height: 4rem;
+  margin-top: 2px;
+  width: 100%;
+  background: #5c0317;
+  font-family: Ubuntu, light;
+}
+
+/* Desktop View */
+@media only screen and (min-width: 760px) {
+  .jumbotron {
+    background-image: url('/assets/images/Mask-Group-4.png');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 0px;
+  }
+
+  .banner-title {
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #420000;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .find-restaurants {
+    height: 70px;
+    background-color: white;
+    border-radius: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 15px 2px #ddd;
+    margin-top: 50px;
+    width: 80%;
+  }
+  .input-group {
+    width: 300px;
+    padding: 20px;
+  }
+
+  .custom-select {
+    border: 0px !important;
+    border-radius: 35px;
+    font-family: Montserrat;
+    font-size: 12px;
+  }
+
+  .btn {
+    height: 4rem;
+    margin-top: 2.5px;
+    width: 282px;
+    border-radius: 0px 30px 30px 0px;
+    background: #5c0317;
+    font-family: Ubuntu, light;
+  }
+}
