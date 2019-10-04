@@ -73,5 +73,28 @@ export class AppComponent {
     ]
   };
 
+
+  popularRestaurant = {
+    sectionTitle: 'Popular Restaurants',
+    cardInfo: [
+      {
+        title: 'Jollof Etcetera',
+        stars: 30
+      },
+      {
+        title: 'Jollof Etcetera',
+        stars: 20
+      },
+      {
+        title: 'Jollof Etcetera',
+        stars: 60
+      },
+      {
+        title: 'Jollof Etcetera',
+        stars: 40
+      }
+    ]
+  };
+
   title: string = 'Deliver';
 }
