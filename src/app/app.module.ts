@@ -8,6 +8,7 @@ import { BannerComponent } from './components/banner/banner.component';
 import { StatsComponent } from './components/stats/stats.component';
 import { CardscontainerComponent } from './components/cardscontainer/cardscontainer.component';
 import { HowitworksComponent } from './components/howitworks/howitworks.component';
+import { DownloadappComponent } from './components/downloadapp/downloadapp.component';
 
 @NgModule({
    declarations: [
@@ -16,7 +17,8 @@ import { HowitworksComponent } from './components/howitworks/howitworks.componen
       BannerComponent,
       StatsComponent,
       CardscontainerComponent,
-      HowitworksComponent
+      HowitworksComponent,
+      DownloadappComponent
    ],
    imports: [
       BrowserModule,
