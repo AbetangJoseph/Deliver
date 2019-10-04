@@ -1,0 +1,28 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="title-container">
+    <h5 id="title">{{ data.sectionTitle }}</h5>
+    <p *ngIf="data.recommendation">
+      <a href="#">View All Restaurants</a>
+    </p>
+  </div>
+  <div class="container">
+    <input type="submit" value=">" id="previous" />
+    <div class="card" *ngFor="let info of data.cardInfo">
+      <img
+        src="./assets/images/jollofetcetera-lagos.jpg"
+        class="card-img-top"
+        alt="restaurant logo"
+      />
+      <div class="card-body">
+        <p class="card-title">{{ info.title }}</p>
+        <img src="./assets/images/rate-star-button.svg" alt="ratings" />
+        <img src="./assets/images/rate-star-button.svg" alt="ratings" />
+        <img src="./assets/images/rate-star-button.svg" alt="ratings" />
+        <img src="./assets/images/rate-star-button1.svg" alt="ratings" />
+        <img src="./assets/images/rate-star-button1.svg" alt="ratings" />
+        <span class="star-count"> ({{ info.stars }})</span>
+      </div>
+    </div>
+    <input type="submit" value=">" id="next" />
+  </div>
+</div>

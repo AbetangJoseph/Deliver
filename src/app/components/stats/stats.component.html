@@ -1,0 +1,10 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <div class="stats-img-container" *ngFor="let stat of data.stats">
+      <img [src]="stat.src" alt="stats" />
+      <p class="card-text">
+        <small class="text-muted">{{ stat.text }}</small>
+      </p>
+    </div>
+  </div>
+</div>

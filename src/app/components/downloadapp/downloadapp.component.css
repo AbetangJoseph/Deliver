@@ -1,0 +1,75 @@
+.jumbotron {
+  background: black;
+}
+
+.text-container {
+  padding: 3rem;
+  color: #fff;
+  font-family: Montserrat;
+}
+
+#phone {
+  width: 333px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+#playstore {
+  width: 200px;
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 760px) {
+  .jumbotron {
+    background: black;
+    background-image: url('/assets/images/580b57fcd9996e24bc43c1a8.png');
+    background-repeat: no-repeat;
+    background-position-x: 1105px;
+    background-size: 503px;
+    overflow: hidden;
+    height: 465px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+
+    height: 350px;
+    justify-content: center;
+    padding-left: 15%;
+    margin: 0px;
+  }
+
+  #phone {
+    width: 333px;
+    margin-bottom: 30px;
+  }
+
+  #photo-container {
+    width: 300px;
+    position: relative;
+  }
+
+  .text {
+    color: #fff;
+    font-size: 12px;
+  }
+
+  .text-container {
+    padding: 5rem;
+    color: #fff;
+    font-family: Montserrat;
+  }
+
+  #playstore {
+    width: 200px;
+  }
+
+  h3 {
+    font-weight: bold;
+  }
+}

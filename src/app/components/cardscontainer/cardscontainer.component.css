@@ -1,0 +1,113 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jumbotron {
+  margin-top: 0px;
+  background: #fff;
+}
+
+#title {
+  text-align: center;
+  color: #676768;
+  margin-bottom: 10px;
+}
+
+.title-container > p {
+  text-align: center;
+  float: right;
+  margin-right: 3rem;
+  color: #5c0426;
+  font-size: 12px;
+}
+
+.title-container > p > a {
+  color: #5c0426;
+}
+
+.card {
+  width: 19rem;
+}
+
+input {
+  background: #5c0426;
+  color: #ddd;
+  border: 0px;
+  border-radius: 0px 50px 50px 0px;
+  height: 40px;
+}
+
+#previous {
+  transform: rotate(180deg);
+}
+
+@media only screen and (min-width: 760px) {
+  .jumbotron {
+    margin-top: 0px;
+    background: #fff;
+  }
+
+  #title {
+    text-align: center;
+    color: #676768;
+    margin-bottom: 10px;
+  }
+
+  .title-container {
+    display: flex;
+    font-family: Roboto Slab;
+    position: relative;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 15%;
+    padding-top: 20px;
+    max-width: 900px;
+  }
+
+  .title-container > p > a {
+    position: absolute;
+    right: 0;
+    text-align: right;
+    color: #5c0426;
+    font-size: 12px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 900px;
+    flex-direction: row;
+  }
+
+  .card-title {
+    font-size: 12px;
+  }
+
+  .star-count {
+    font-size: 12px;
+    color: #ddd;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+
+  .card {
+    width: 12rem;
+  }
+
+  input {
+    background: #5c0426;
+    color: #ddd;
+    border: 0px;
+    border-radius: 0px 50px 50px 0px;
+    height: 40px;
+  }
+
+  #previous {
+    transform: rotate(180deg);
+  }
+}
