@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  navData: object = {
+  navData = {
     mainNav: [
       'Courier Services',
       'Food Delivery',
@@ -18,7 +18,7 @@ export class AppComponent {
     subNav: ['Home', 'Payment Methods', 'My Orders', 'Cart']
   };
 
-  statsData: object = {
+  statsData = {
     stats: [
       {
         src: '/assets/images/store.png',
@@ -31,6 +31,29 @@ export class AppComponent {
       {
         src: '/assets/images/group.png',
         text: 'Over 500 Registered Customers'
+      }
+    ]
+  };
+
+  cardsContainerData = {
+    sectionTitle: 'Recommended Restaurants',
+    recommendation: true,
+    cardInfo: [
+      {
+        title: 'Jollof Etcetera',
+        stars: 30
+      },
+      {
+        title: 'Jollof Etcetera',
+        stars: 20
+      },
+      {
+        title: 'Jollof Etcetera',
+        stars: 60
+      },
+      {
+        title: 'Jollof Etcetera',
+        stars: 40
       }
     ]
   };
