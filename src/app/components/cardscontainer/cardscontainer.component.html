@@ -6,6 +6,7 @@
     </p>
   </div>
   <div class="container">
+    <input type="submit" value=">" id="previous" />
     <div class="card" *ngFor="let info of data.cardInfo">
       <img
         src="./assets/images/jollofetcetera-lagos.jpg"
@@ -22,5 +23,6 @@
         <span class="star-count"> ({{ info.stars }})</span>
       </div>
     </div>
+    <input type="submit" value=">" id="next" />
   </div>
 </div>

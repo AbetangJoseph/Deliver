@@ -31,6 +31,18 @@
   width: 19rem;
 }
 
+input {
+  background: #5c0426;
+  color: #ddd;
+  border: 0px;
+  border-radius: 0px 50px 50px 0px;
+  height: 40px;
+}
+
+#previous {
+  transform: rotate(180deg);
+}
+
 @media only screen and (min-width: 760px) {
   .jumbotron {
     margin-top: 0px;
@@ -85,5 +97,17 @@
 
   .card {
     width: 12rem;
+  }
+
+  input {
+    background: #5c0426;
+    color: #ddd;
+    border: 0px;
+    border-radius: 0px 50px 50px 0px;
+    height: 40px;
+  }
+
+  #previous {
+    transform: rotate(180deg);
   }
 }
