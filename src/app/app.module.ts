@@ -7,6 +7,7 @@ import { NavComponent } from './components/Nav/Nav.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { StatsComponent } from './components/stats/stats.component';
 import { CardscontainerComponent } from './components/cardscontainer/cardscontainer.component';
+import { HowitworksComponent } from './components/howitworks/howitworks.component';
 
 @NgModule({
    declarations: [
@@ -14,7 +15,8 @@ import { CardscontainerComponent } from './components/cardscontainer/cardscontai
       NavComponent,
       BannerComponent,
       StatsComponent,
-      CardscontainerComponent
+      CardscontainerComponent,
+      HowitworksComponent
    ],
    imports: [
       BrowserModule,

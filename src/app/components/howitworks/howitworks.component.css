@@ -1,0 +1,44 @@
+p {
+  text-align: center;
+  color: #fff;
+}
+
+.title {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 10px;
+  font-family: Roboto Slab;
+}
+
+.jumbotron {
+  background: #5c0426;
+  font-family: Roboto Slab;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.section {
+  font-family: Montserrat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 300px;
+}
+
+.text {
+  font-size: 12px;
+}

@@ -58,5 +58,20 @@ export class AppComponent {
     ]
   };
 
+  howItWorks = {
+    mainTitle: 'How It Works',
+    sectionData: [
+      {
+        title: 'Select Your Restaurant'
+      },
+      {
+        title: 'Select Your Desired Meal'
+      },
+      {
+        title: 'Get It Delivered Fast'
+      }
+    ]
+  };
+
   title: string = 'Deliver';
 }
