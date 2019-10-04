@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./howitworks.component.css']
 })
 export class HowitworksComponent implements OnInit {
-  @Input() data: object;
+  @Input() data;
 
   constructor() {}
 
