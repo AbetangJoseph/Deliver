@@ -10,6 +10,7 @@ import { CardscontainerComponent } from './components/cardscontainer/cardscontai
 import { HowitworksComponent } from './components/howitworks/howitworks.component';
 import { DownloadappComponent } from './components/downloadapp/downloadapp.component';
 import { TestimoniesComponent } from './components/testimonies/testimonies.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
    declarations: [
@@ -20,7 +21,8 @@ import { TestimoniesComponent } from './components/testimonies/testimonies.compo
       CardscontainerComponent,
       HowitworksComponent,
       DownloadappComponent,
-      TestimoniesComponent
+      TestimoniesComponent,
+      FooterComponent
    ],
    imports: [
       BrowserModule,
